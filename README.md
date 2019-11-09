@@ -26,10 +26,17 @@ author: <본인 Github display name>
 ---
 ```
 
-## 로컬에서 draft 쓰기
+## 로컬 환경 구축하기
 ```
-git clone
+mkdir blog
+cd blog
+git clone https://github.com/weehan-dev/weehan-dev.github.io.git .
 bundle
-bundle exec jekyll serve
+bundle exec jekyll serve # localhost:4000에서 확인
+```
+
+_drafts 폴더 아래에 아래 형식의 파일 이름으로 파일을 만들고 Markdown 문법에 맞춰서 글을 작성하면 된다.
+```
+yyyy-mm-dd-title.md
 ```
 
