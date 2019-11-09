@@ -1,0 +1,11 @@
+changhoi:
+  name        : "changhoi"
+  bio         : "개발팀 팀장, 정보시스템학과 17학번"
+  avatar      : "https://avatars0.githubusercontent.com/u/34329147?s=460&v=4"
+  links:
+    - label: "changhoi0522@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:changhoi0522@gmail.com"
+    - label: "@changhoi"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/changhoi"
