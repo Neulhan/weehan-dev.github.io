@@ -40,3 +40,7 @@ _drafts 폴더 아래에 아래 형식의 파일 이름으로 파일을 만들�
 yyyy-mm-dd-title.md
 ```
 
+## 참고 링크
+- [minimal-mistake 문서](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+- [jekyil 문서](https://jekyllrb-ko.github.io/docs/home/)
+- [블로그](https://devinlife.com/howto/)
