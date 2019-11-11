@@ -108,9 +108,8 @@ analytics:
 author:
   name             : "Weehan"
   avatar           : https://avatars0.githubusercontent.com/u/50257388?s=400&u=cc04f5fbf539a2a74a381fd8007e067eeba05d59&v=4 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "위한 개발팀"
+  bio              : "위한 개발팀의 기술 블로그 입니다."
   location         : "한양대학교"
-  email            :
   links:
     - label: "위한 개발팀 Github"
       icon: "fab fa-fw fa-github"
@@ -124,7 +123,7 @@ author:
     - label: "위한 Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/hanyang.weehan/"
-    - label: "Instagram"
+    - label: "위한 Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/weehan_official/?hl=ko"
 
@@ -143,7 +142,7 @@ footer:
     - label: "위한 Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/hanyang.weehan/"
-    - label: "Instagram"
+    - label: "위한 Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/weehan_official/?hl=ko"
 
@@ -211,7 +210,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /posts/:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -246,10 +245,10 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /categories
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /tags
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
