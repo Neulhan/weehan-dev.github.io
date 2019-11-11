@@ -39,8 +39,8 @@ yyyy-mm-dd-title.md
   links:
     - label: "<본인 이메일 주소>"
       icon: "fas fa-fw fa-envelope-square"
-      url: "<mailto:본인 이메일 주소>"
-    - label: "<@본인 Github display name>"
+      url: "mailto:<본인 이메일 주소>"
+    - label: "@<본인 Github display name>"
       icon: "fab fa-fw fa-github"
       url: "<본인 github 링크>"
 ```
@@ -60,7 +60,7 @@ Staff에 잘 나타나는지 확인.
 
 ```
 ---
-author: "<본인 Github ID>"
+author: <본인 Github ID>
 
 categories:
     - <포스트가 해당되는 기존 카테고리>
