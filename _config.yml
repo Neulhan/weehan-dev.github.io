@@ -77,7 +77,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "cw4vgYW_P86zGtlHdgkp5lELddPzkpPOm1qlNooyiDI"
+google_site_verification : "MD8th4-bEpUqwfJ-HrVyjarJBCG8i7zwR9kpnFwrjLE"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -103,7 +103,7 @@ analytics:
   google:
     tracking_id          : "UA-151984684-1"
     anonymize_ip         : # true, false (default)
-    
+
 # Site Author
 author:
   name             : "Weehan"
