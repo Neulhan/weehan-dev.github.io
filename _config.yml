@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Weehan"
   avatar           : https://avatars0.githubusercontent.com/u/50257388?s=400&u=cc04f5fbf539a2a74a381fd8007e067eeba05d59&v=4 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "위한 개발팀의 기술 블로그 입니다."
+  bio              : "위한 개발팀의 기술 블로그입니다."
   location         : "한양대학교"
   links:
     - label: "위한 개발팀 Github"
@@ -269,9 +269,21 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  staff:
+    output: true
+    permalink: /:collection/:path
+
 
 # Defaults
 defaults:
+  # _staff
+  - scope:
+      path: ""
+      type: "staff"
+    values:
+      layout: "staff-member"
+      author_profile: true
   # _posts
   - scope:
       path: ""

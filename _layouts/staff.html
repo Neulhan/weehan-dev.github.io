@@ -1,0 +1,32 @@
+---
+layout: default
+title: Staff
+---
+
+<div class="custom__wide-main">
+    <h1>개발팀</h1>
+    <div class="card-deck">
+    {% for temp in site.staff %}
+    {% assign member = temp.author | default: site.author %}
+    {% assign member = site.data.authors[member] | default: member %}
+        <div class="card">
+            <a href="{{temp.url}}" style="text-decoration-line: none;">
+                <img src="{{member.avatar}}" alt="member avatar" class="card-img-top">
+                <h2 class="card-title">{{member.name}}</h5>
+            </a>
+            <div class="card-body">
+                <p class="card-text"><small class="text-muted">{{member.position}}</small></p>
+                <ul class="card-url-info">
+                    {% if member.links %}
+                        {% for link in member.links %}
+                        {% if link.label and link.url %}
+                            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+        </div>   
+    {% endfor %}
+    </div>
+</div>

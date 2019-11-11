@@ -1,7 +1,9 @@
 changhoi:
-  name        : "changhoi"
-  bio         : "개발팀 팀장, 정보시스템학과 17학번"
+  name        : "Changhoi Kim"
+  position    : "위한 8기, 개발팀 팀장"
+  bio         : "Self learning engineer. Likes back-end, TS, DevOps & build applications"
   avatar      : "https://avatars0.githubusercontent.com/u/34329147?s=460&v=4"
+  home        : "/staff/changhoi"
   links:
     - label: "changhoi0522@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
@@ -9,3 +11,17 @@ changhoi:
     - label: "@changhoi"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/changhoi"
+
+Jiwon-Yang:
+  name        : "Jiwon Yang"
+  position    : "위한 9기, 개발팀"
+  bio         : "테스트용"
+  avatar      : "https://avatars2.githubusercontent.com/u/26773073?s=460&v=4"
+  home        : "/staff/Jiwon-Yang"
+  links:
+    - label: "jiwonyang.tech@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jiwonyang.tech@gmail.com"
+    - label: "@Jiwon-Yang"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Jiwon-Yang"

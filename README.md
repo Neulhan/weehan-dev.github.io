@@ -4,42 +4,10 @@
 
 각 운영체제에 맞게 루비 개발 환경이 설치 되어 있어야 한다.
 
-## Author에 본인 추가하기
-아래와 같은 형식으로 추가한다.
-
-```
-// _data/authors.yml
-
-<본인 Github display name>:
-  name        : "<본인 Github display name>"
-  bio         : "<본인 개발 분야 / 학과 학번>"
-  avatar      : "<본인 github 이미지 주소>"
-  links:
-    - label: "<본인 이메일 주소>"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "<mailto:본인 이메일 주소>"
-    - label: "<@본인 Github display name>"
-      icon: "fab fa-fw fa-github"
-      url: "<본인 github 링크>"
-```
-
-글을 작성할 때 아래 설정을 markdown 파일 맨 첫 번째에 추가한다.
-
-```
----
-author: "<본인 Github display name>"
-
-categories:
-    - <포스트가 해당되는 기존 카테고리>
-
-tags:
-    - <포스트가 해당되는 기존 or 새로운 태그>
-    - <포스트가 해당되는 기존 or 새로운 태그>
-    ...
----
-```
-
 ## 로컬 환경 구축하기
+
+CSS를 수정할 일이 있다든지, Draft를 작성하려고 한다든지 등은 로컬 환경에서 먼저 구현하고 테스트한다.
+
 ```
 mkdir blog
 cd blog
@@ -55,6 +23,53 @@ title.md
 
 * _posts에서
 yyyy-mm-dd-title.md
+```
+
+## Author와 staff에 본인 추가하기
+아래와 같은 형식으로 추가한다. 특히 `Github ID` 값과 `Github display name` 값 주의
+
+```
+// _data/authors.yml
+
+<본인 Github ID>:
+  name        : "<본인 Github display name>"
+  position    : "<본인 위한 기수, 역할>"
+  bio         : "<본인 bio>"
+  avatar      : "<본인 github 이미지 주소>"
+  links:
+    - label: "<본인 이메일 주소>"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "<mailto:본인 이메일 주소>"
+    - label: "<@본인 Github display name>"
+      icon: "fab fa-fw fa-github"
+      url: "<본인 github 링크>"
+```
+
+```
+// _staff/<본인 Github ID>.md
+
+---
+author: <본인 Github ID>
+title: <본인 Github ID>
+---
+```
+
+Staff에 잘 나타나는지 확인.
+
+글을 작성할 때는 아래 설정을 포스팅 하는 markdown 파일 맨 첫 번째에 추가한다.
+
+```
+---
+author: "<본인 Github ID>"
+
+categories:
+    - <포스트가 해당되는 기존 카테고리>
+
+tags:
+    - <포스트가 해당되는 기존 or 새로운 태그>
+    - <포스트가 해당되는 기존 or 새로운 태그>
+    ...
+---
 ```
 
 ## 태그와 카테고리

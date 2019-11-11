@@ -1,0 +1,41 @@
+.card {
+    &-deck {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    width: 300px;
+    margin: 0.25rem;
+
+    &-body {
+        padding: 0 0.25rem;
+    }
+    &-title {
+        margin-top: 15px;
+    }
+
+    &-img-top {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    &-text {
+        font-size: 1rem;
+    }
+
+    &-url-info {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        overflow-wrap: break-word;
+        font-size: 0.85rem;
+    }
+}

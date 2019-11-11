@@ -6,6 +6,8 @@ main:
     url: /categories
   - title: "Tags"
     url: /tags
+  - title: "Staff"
+    url: /staff
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
