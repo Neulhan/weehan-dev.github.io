@@ -6,6 +6,7 @@
 
 ## Author에 본인 추가하기
 아래와 같은 형식으로 추가한다.
+
 ```
 // _data/authors.yml
 
@@ -21,10 +22,20 @@
       icon: "fab fa-fw fa-github"
       url: "<본인 github 링크>"
 ```
+
 글을 작성할 때 아래 설정을 markdown 파일 맨 첫 번째에 추가한다.
+
 ```
 ---
-author: <본인 Github display name>
+author: "<본인 Github display name>"
+
+categories:
+    - <포스트가 해당되는 기존 카테고리>
+
+tags:
+    - <포스트가 해당되는 기존 or 새로운 태그>
+    - <포스트가 해당되는 기존 or 새로운 태그>
+    ...
 ---
 ```
 
