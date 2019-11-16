@@ -21,7 +21,7 @@ title_separator: '-'
 subtitle: '위한 개발팀 기술 블로그' # site tagline that appears below site title in masthead
 name: 'Weehan'
 description: '한양대학교 커뮤니티 위한 운영진 개발팀 기술 블로그'
-url: 'https://weehan.github.io/' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: 'https://weehan.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: 'https://github.com/weehan/weehan.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
