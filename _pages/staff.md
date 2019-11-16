@@ -1,5 +1,5 @@
 ---
 title: 'Staff'
-permalink: /staff/
+permalink: /staff
 layout: staff
 ---
