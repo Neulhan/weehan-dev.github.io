@@ -17,6 +17,7 @@ bundle exec jekyll serve --drafts # localhost:4000에서 확인
 ```
 
 `_drafts` 폴더 아래에 아래 파일을 만들어서 마크다운 문서를 작성한 다음(이때는 날짜 정보가 포함될 필요 없다.), 작성이 완료 되면 `_posts`로 날짜 정보를 포함해서 아래와 같은 형식으로 포스팅을 한다.
+
 ```
 * _drafts에서
 title.md
@@ -26,6 +27,7 @@ yyyy-mm-dd-title.md
 ```
 
 ## Author와 staff에 본인 추가하기
+
 아래와 같은 형식으로 추가한다. 특히 `Github ID` 값과 `Github display name` 값 주의
 
 ```
@@ -73,12 +75,24 @@ tags:
 ```
 
 ## 태그와 카테고리
+
 태그는 포스트의 관련된 주제를 모두 포함한다. 태그를 넣는 것은 되도록이면 원래 사용되었던 것을 쓰면 좋지만, 기본적으로 쓰는 사람이 임의로 설정할 수 있다.
 
 카테고리는 포스트가 주로 포함된 기술과 관련지어 넣는다. 카테고리는 기존에 생성되었던 카테고리 안에 넣어야 하고 만약 현재 적절한 카테고리가 없다면, 앞으로 계속 관련 카테고리 포스트가 생길 것 같은 경우에만 개발팀에게 알린 후 추가 하도록 한다.
 
+### 카테고리 추가하기
+
+1. `_pages` 아래 `categories`아래 기존 파일들처럼 새로운 카테고리 페이지를 만든다.
+2. `_posts` 아래 새로운 카테고리 이름으로 폴더를 만들고 해당 카테고리에 속하는 게시글은 해당 폴더 아래 작성한다.
+
+## 기타
+
+### 예약 발행
+
+- 아마 날짜가 미래인 경우는 바로 업로드가 안되고 예약 발행이 되는 것 같음. 확인은 안 해봄 근데 아무튼 미래가 아닌 순간부터 글이 올라감
 
 ## 참고 링크
+
 - [minimal-mistake 문서](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 - [jekyil 문서](https://jekyllrb-ko.github.io/docs/home/)
 - [블로그 minimal-mistakes 정리 글](https://devinlife.com/howto/)
