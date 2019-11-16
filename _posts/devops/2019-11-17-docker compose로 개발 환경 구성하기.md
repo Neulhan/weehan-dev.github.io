@@ -19,32 +19,32 @@ Docker와 docker-compose는 Docker를 설치하면서 함께 설치가 됩니다
 
 ### Linux 설치
 
-1. apt 패키지 관리자 패키지 목록 업데이트
+(1) apt 패키지 관리자 패키지 목록 업데이트
 
 ```bash
 sudo apt update -y
 ```
 
-2. 도커 CE가 의존 중인 여러 패키지 설치
+(2) 도커 CE가 의존 중인 여러 패키지 설치
 
 ```bash
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 ```
 
-3. 도커 패키지 저장소를 apt에 등록
+(3) 도커 패키지 저장소를 apt에 등록
 
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository \ "deb [arch=amd64] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) \ stable"
 ```
 
-4. 다시 패키지 목록 업데이트
+(4) 다시 패키지 목록 업데이트
 
 ```bash
 sudo apt update -y
 ```
 
-5. 설치할 버전 정해서 도커 CE 설치
+(5) 설치할 버전 정해서 도커 CE 설치
 
 ```bash
 sudo apt install -y docker-ce
